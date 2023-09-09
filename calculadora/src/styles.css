@@ -1,0 +1,89 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+
+body {
+    background: linear-gradient(320deg, rgb(89, 10, 105) , rgb(54, 87, 236) , purple);
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Dosis', sans-serif;
+}
+
+.contaneir {
+    min-height: 500px;
+    border: rgb(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    min-width: 350px;
+    width: 30vw;
+    height: 60vh;
+    display: grid;
+    grid-template-rows: 20% auto;
+    border-radius: 10px;
+    gap: 25px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+}
+
+.contaneirButtons  {
+    display:  grid; 
+    gap: 20px;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-rows: repeat(4, minmax(0,1fr));
+}
+
+.emphasis-button {
+    grid-column: span 6 / span 6;
+}
+
+.output {
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    text-align: right;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.grid-4 {
+  grid-column: span 3 / span 3;
+}
+
+#button-operation { 
+    background-color: rgba(216, 31, 77, 0.7);
+    color: white;
+}
+
+.button {
+    backdrop-filter: blur(5px);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+    border: unset;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.75rem;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#expression {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.button:active,
+#button-operation:active {
+    background-color: rgb(199, 199, 37);
+}
+
+
