@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Pesquisa</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <header>
+        <h1 id="title"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDJm3_YPVax-vWPdngnlWUgTRQx_KDVUkYWtL4OrjghTAN67zOklOIBWQcB-UFxmQ_8C0&usqp=CAU"/>  Formulário de Pesquisa</h1>
+        <p id="description">
+          Obrigado por escolher a UEPB Gaming como time
+        </p>
+      </header>
+
+      <form id="survey-form" action="">
+        <div class="input-text">
+          <label  class="label" for="name" id="name-label">Nome</label>
+          <input required placeholder="Digite seu nome" type="text" id="name" />
+        </div>
+
+        <div class="input-text">
+          <label class="label" for="email" id="email-label">Email</label>
+          <input
+            required
+            placeholder="Digite o seu email"
+            type="email"
+            id="email"
+          />
+        </div>
+
+        <div class="input-text">
+          <label class="label" id="number-label" for="number">Idade</label>
+          <input
+            placeholder="Digite sua idade"
+            min="1"
+            max="2"
+            type="number"
+            id="number"
+          />
+        </div>
+
+        <div>
+          <p class="label gap">Você recomendaria o jogo para mais alguém?</p>
+
+          <div class="container-radio">
+            <label
+              ><input type="radio" value="sim" name="name" id="" /> Sim</label
+            >
+            <label
+              ><input
+                type="radio"
+                value="talvez"
+                name="name"
+                id=""
+              /> Talvez</label
+            >
+            <label
+              ><input type="radio" value="never" name="name" id="" /> Nem pro meu
+              pior inimigo</label
+            >
+          </div>
+        </div>
+
+        <div>
+          <p class="label gap">Quais são as roles que você joga?</p>
+
+          <div class="checkbox-wrapper">
+            <label>
+              <input class="checkbox"  type="checkbox" name="role-top" value="top" />
+              Top
+            </label>
+            <label>
+              <input class="checkbox" type="checkbox" name="roles-jungle" value="jungle" />
+              Jungle
+            </label>
+
+            <label>
+              <input class="checkbox" type="checkbox" name="role-mid" value="mid" />
+              Mid
+            </label>
+
+            <label>
+              <input class="checkbox" type="checkbox" name="roles-adc" value="adc" />
+              Adc
+            </label>
+
+            <label>
+              <input class="checkbox" type="checkbox" name="role-support" value="support" />
+              Support
+            </label>
+          </div>
+        </div>
+
+        <div class="dropdown-wrapper">
+          <p class="label gap">Selecione seu Elo</p>
+
+          <select name="" id="dropdown">
+            <option value="" disabled selected>Selecione uma opção</option>
+            <option value="ferro">Ferro</option>
+            <option value="bronze">Bronze</option>
+            <option value="prata">Prata</option>
+            <option value="ouro">Ouro</option>
+            <option value="platina">Platina</option>
+            <option value="esmeralda">Esmeralda</option>
+            <option value="diamante">Diamante</option>
+            <option value="mestre">Mestre</option>
+            <option value="grao-mestre">Grão-Mestre</option>
+            <option value="challenger">Challenger</option>
+          </select>
+        </div>
+
+        <div class="comment-wrapper">
+          <p class="label gap">Digite mais sobre você</p>
+          <textarea
+            placeholder="Digite seu comentário aqui..."
+            cols="30"
+            rows="10"
+          >
+          </textarea>
+        </div>
+
+        <input type="submit" value="Report" id="submit" />
+      </form>
+    </main>
+  </body>
+</html>
