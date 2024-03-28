@@ -1,3 +1,3 @@
 # Mini Projetos
 
-- Mini projetos feitos para praticar determinado assunto
+- Mini projetos feitos para HTML, CSS e JavaScript
