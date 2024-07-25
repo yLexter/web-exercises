@@ -1,3 +1,10 @@
-# Calculadora
+# Calculator
 
-- Simples projeto de uma calculadora com HTML, CSS e Javascript
+A simple calculator application that allows users to perform basic arithmetic operations.
+
+## Features
+
+- Addition
+- Subtraction
+- Multiplication
+- Division

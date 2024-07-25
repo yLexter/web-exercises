@@ -1,3 +1,9 @@
-# Jogo da Velha
+# Tic-Tac-Toe
 
-- Simples projeto de uma Jogo da Velha com HTML, CSS e Javascript
+A classic Tic-Tac-Toe game that can be played between two players.
+
+## Features
+
+- Two-player game
+- Interactive game board
+- Win and draw detection
